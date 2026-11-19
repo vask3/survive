@@ -5,8 +5,9 @@ so basically this is my custom hardware project called **survive** and I somehow
 ## what is this?
 it's a compact IoT carrier board I'm building for tracking outdoor weather and environmental data. it uses a **Seeeduino XIAO ESP32-C3** hooked up to a bunch of I2C sensors so it can measure air quality, temperature, humidity, and light levels all on one small board.
 
-check out the schematic image in the repo (`SCH_Schematic1_1-P1_2026-11-13 (1).png`) or down below to see how everything is wired up:
-<img width="1080" height="1118" alt="Schematic" src="https://github.com" />
+check out the schematic image below to see how everything is wired up:
+
+![Schematic](SCH_Schematic1_1-P1_2026-11-13%20(1).png)
 
 ## stuff used:
 - **Seeeduino XIAO ESP32-C3** (`U2`) - the main brain of the board (connected via I2C on pins D4 and D5)
